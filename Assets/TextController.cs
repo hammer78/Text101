@@ -26,7 +26,7 @@ public class TextController : MonoBehaviour {
 			else if (myState == State.lock_1)		{state_lock_1();}
 			else if (myState == State.freedom)		{state_freedom();}
 	}
-	
+	//roaming the cell
 	void state_cell(){
 		text.text = "You are in a prison cell, convicted of a murder that you did not " +
 					"commit! You need to escape to find the person that killed the man in black. " +
